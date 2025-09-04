@@ -59,7 +59,7 @@ def analysis(file_img, label):
 dataset_path = "UJI/5_dataset_affectnet_rafdb_seleksi_wajah_miring_frontal/"
 
 label_results = []
-max_images_per_label = 250 #atau 70
+max_images_per_label = 70 #atau 70
 for label in os.listdir(dataset_path):
     label_path = os.path.join(dataset_path, label)
     if os.path.isdir(label_path):
